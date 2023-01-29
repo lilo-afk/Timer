@@ -58,9 +58,14 @@ body {
 }
 
 .cronometroContainer > .buttonsContainer > button:disabled {
-    background: --btn-color;
+    background: var(--btn-color);
+    cursor: default;
 }
 
 .cronometroContainer > .buttonsContainer > button:hover {
     background-color: var(--btn-color-hover);
+}
+
+.cronometroContainer > .buttonsContainer > button:disabled:hover {
+    background: var(--btn-color);
 }
