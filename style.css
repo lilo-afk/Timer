@@ -9,6 +9,8 @@
     --bg-color: #130F13;
     --text-color: #130F13;
     --btn-color: #1dca51;
+    --btn-color-disabled: #1d6131;
+    --btn-color-disabled-hover: #164b26;
     --btn-color-hover: #107930;
 }
 
@@ -58,14 +60,14 @@ body {
 }
 
 .cronometroContainer > .buttonsContainer > button:disabled {
-    background: var(--btn-color);
+    background: var(--btn-color-disabled);
     cursor: default;
 }
 
 .cronometroContainer > .buttonsContainer > button:hover {
-    background-color: var(--btn-color-hover);
+    background-color: var(--btn-color);
 }
 
 .cronometroContainer > .buttonsContainer > button:disabled:hover {
-    background: var(--btn-color);
+    background: var(--btn-color-disabled-hover);
 }
