@@ -1,7 +1,7 @@
 
 #  Timer
 
-<img src="." alt="timer_Cover"> 
+<img src="./timer_cover.png" alt="timer_Cover"> 
 
 A Javascript and HTML/CSS project
 
